@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
     - source: /
-      destination: /var/www/html/codeDeployQiita
+      destination: /var/www/html/web-20210222-repo
 permissions:
-    - object: /var/www/html/codeDeployQiita
+    - object: /var/www/html/web-20210222-repo
       pattern: "**"
       owner: apache
       group: apache
